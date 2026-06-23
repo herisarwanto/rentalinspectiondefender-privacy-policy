@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kebijakan privasi aplikasi Jualan Cepat — POS offline untuk UMKM.">
-  <title>Kebijakan Privasi — Jualan Cepat</title>
+  <meta name="description" content="Privacy Policy for Rental Inspection Defender.">
+  <title>Privacy Policy - Rental Inspection Defender</title>
   <style>
     :root {
-      --primary: #2563eb;
-      --primary-dark: #1d4ed8;
-      --text: #1e293b;
+      --primary: #155e75;
+      --primary-dark: #0f3f4f;
+      --accent: #b45309;
+      --text: #1f2937;
       --muted: #64748b;
-      --border: #e2e8f0;
+      --border: #dbe3ea;
       --surface: #ffffff;
-      --bg: #f1f5f9;
-      --danger: #dc2626;
-      --danger-bg: #fef2f2;
+      --bg: #f6f8fb;
+      --notice: #f8fafc;
     }
 
     * { box-sizing: border-box; }
@@ -25,7 +25,7 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         "Helvetica Neue", Arial, sans-serif;
       font-size: 16px;
-      line-height: 1.6;
+      line-height: 1.65;
       color: var(--text);
       background: var(--bg);
     }
@@ -36,39 +36,43 @@
       padding: 2.5rem 1.25rem 2rem;
     }
 
-    header .wrap { max-width: 720px; margin: 0 auto; }
+    header .wrap,
+    main,
+    footer {
+      max-width: 820px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     header h1 {
       margin: 0 0 0.35rem;
-      font-size: 1.75rem;
+      font-size: 1.9rem;
       font-weight: 800;
-      letter-spacing: -0.02em;
     }
 
     header p {
       margin: 0;
-      opacity: 0.9;
-      font-size: 0.95rem;
+      opacity: 0.92;
+      font-size: 0.96rem;
     }
 
     main {
-      max-width: 720px;
-      margin: -1.25rem auto 3rem;
-      padding: 0 1.25rem;
+      margin-top: -1.25rem;
+      padding: 0 1.25rem 3rem;
     }
 
     .card {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 1.5rem;
+      border-radius: 10px;
+      padding: 1.45rem;
       margin-bottom: 1rem;
       box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
     }
 
     .card h2 {
       margin: 0 0 0.75rem;
-      font-size: 1.1rem;
+      font-size: 1.12rem;
       font-weight: 800;
       color: var(--text);
     }
@@ -83,159 +87,205 @@
 
     li { margin-bottom: 0.35rem; }
 
-    .highlight {
-      background: var(--danger-bg);
-      border: 1px solid #fecaca;
-      border-radius: 12px;
-      padding: 1rem 1.15rem;
+    .notice {
+      background: var(--notice);
+      border-left: 4px solid var(--accent);
     }
 
-    .highlight h2 { color: var(--danger); }
-
-    .steps {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .steps li {
-      display: flex;
-      gap: 0.75rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .steps li:last-child { margin-bottom: 0; }
-
-    .steps .num {
-      flex-shrink: 0;
-      width: 1.75rem;
-      height: 1.75rem;
-      border-radius: 50%;
-      background: var(--danger);
-      color: #fff;
-      font-size: 0.85rem;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    code {
+      background: #eef2f7;
+      border-radius: 4px;
+      padding: 0.1rem 0.3rem;
     }
 
     footer {
-      max-width: 720px;
-      margin: 0 auto 2.5rem;
-      padding: 0 1.25rem;
+      padding: 0 1.25rem 2.5rem;
       text-align: center;
-      font-size: 0.875rem;
+      font-size: 0.88rem;
       color: var(--muted);
     }
 
     a { color: var(--primary); }
     a:hover { color: var(--primary-dark); }
 
-    @media (max-width: 480px) {
+    @media (max-width: 520px) {
       header { padding: 2rem 1rem 1.75rem; }
-      header h1 { font-size: 1.5rem; }
-      .card { padding: 1.25rem; }
+      header h1 { font-size: 1.55rem; }
+      main { padding-left: 1rem; padding-right: 1rem; }
+      .card { padding: 1.2rem; }
     }
   </style>
 </head>
 <body>
   <header>
     <div class="wrap">
-      <h1>Kebijakan Privasi</h1>
-      <p>Jualan Cepat · Diperbarui: 1 Juni 2026</p>
+      <h1>Privacy Policy</h1>
+      <p>Rental Inspection Defender &middot; Last updated: 23 June 2026</p>
     </div>
   </header>
 
   <main>
-    <section class="card">
-      <h2>Ringkasan</h2>
+    <section class="card notice">
+      <h2>Summary</h2>
       <p>
-        Jualan Cepat adalah aplikasi POS offline. Data toko Anda disimpan di
-        perangkat ini, bukan di server kami. Kami tidak menjual data Anda
-        kepada pihak ketiga.
+        Rental Inspection Defender is designed as a local-first rental inspection
+        app. Property, inspection, room, note, photo, report, and settings data
+        are stored on your device unless you choose to share, export, print, or
+        email them. We do not sell your personal data.
       </p>
     </section>
 
     <section class="card">
-      <h2>Data yang disimpan</h2>
-      <p>Aplikasi menyimpan data berikut <strong>secara lokal di perangkat Anda</strong>:</p>
+      <h2>Information You Enter or Create</h2>
+      <p>The app may store the following information locally on your device:</p>
       <ul>
-        <li>Profil toko (nama, alamat, telepon)</li>
-        <li>Produk, kategori, dan harga</li>
-        <li>Transaksi penjualan, pembayaran, hutang, dan refund</li>
-        <li>Nama/telepon pelanggan (jika Anda mengisi saat penjualan hutang)</li>
-        <li>Preferensi app (mis. status onboarding, waktu backup terakhir)</li>
+        <li>Property details, including address, room information, inspection dates, and inspection status.</li>
+        <li>Inspection notes, checklist items, condition details, and other text you enter.</li>
+        <li>Photos or images you capture or import for inspection evidence.</li>
+        <li>Generated PDF reports and exported backup files.</li>
+        <li>App preferences, onboarding state, and subscription-related status shown in the app.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2>Data yang tidak kami kumpulkan</h2>
+      <h2>Local Storage and Backups</h2>
       <p>
-        Tidak ada akun login, tidak ada analytics pihak ketiga, dan tidak ada
-        pengiriman data transaksi ke cloud secara otomatis. Backup hanya
-        terjadi jika Anda mengekspor file backup secara manual.
+        The app does not require an account or cloud login. Your inspection data
+        is stored in the app's local database and files on your device. If you
+        use export, share, print, email, or backup features, you control where
+        those files are sent or saved.
+      </p>
+      <p>
+        Deleting the app or clearing its app data may permanently delete locally
+        stored inspection data unless you previously exported a copy.
       </p>
     </section>
 
     <section class="card">
-      <h2>Izin perangkat</h2>
+      <h2>Permissions</h2>
+      <p>The app may request these permissions only when needed for app features:</p>
+      <ul>
+        <li><strong>Camera:</strong> to capture inspection evidence photos.</li>
+        <li><strong>Photos or media library:</strong> to import existing inspection images or attach images to reports.</li>
+        <li><strong>Internet:</strong> to support subscriptions, address lookup, map tiles, and links opened from the app.</li>
+      </ul>
       <p>
-        <strong>Mikrofon</strong> — hanya untuk fitur pencarian produk suara
-        (opsional). Anda bisa menolak izin; fitur lain tetap berfungsi.
+        You can deny or later change permissions in your device settings, but
+        some related features may stop working.
       </p>
     </section>
 
     <section class="card">
-      <h2>Backup</h2>
+      <h2>Subscriptions and Purchases</h2>
       <p>
-        File backup (<code>.jualancepat</code>) dienkripsi dengan PIN yang Anda
-        buat. Anda bertanggung jawab menyimpan file dan PIN tersebut. Kami tidak
-        menyimpan salinan backup di server.
+        Rental Inspection Defender may offer paid subscription features. Purchase
+        and subscription processing is handled by the Apple App Store, Google
+        Play, and RevenueCat. These providers may process purchase identifiers,
+        transaction status, subscription status, device/app information, and
+        related diagnostics needed to verify access and restore purchases.
       </p>
-    </section>
-
-    <section class="card highlight">
-      <h2>Penghapusan data</h2>
       <p>
-        Jualan Cepat tidak memakai login atau akun cloud. Untuk menghapus
-        semua data pengguna, lakukan salah satu cara berikut:
-      </p>
-      <ol class="steps">
-        <li>
-          <span class="num">1</span>
-          <span>
-            Buka app → menu drawer → <strong>Privasi &amp; data</strong> →
-            <strong>Hapus semua data di HP ini</strong>
-          </span>
-        </li>
-        <li>
-          <span class="num">2</span>
-          <span>
-            Atau uninstall aplikasi / <strong>Hapus data</strong> di
-            Pengaturan Android untuk Jualan Cepat
-          </span>
-        </li>
-      </ol>
-      <p>
-        Setelah dihapus, data tidak dapat dipulihkan kecuali Anda punya file
-        backup yang diekspor sebelumnya.
+        We do not receive your full payment card details. Payment information is
+        handled by the relevant app store or payment provider.
       </p>
     </section>
 
     <section class="card">
-      <h2>Kontak</h2>
+      <h2>Address Lookup and Maps</h2>
       <p>
-        Pertanyaan privasi: hubungi developer melalui email
-        <!-- GANTI email di bawah sebelum deploy -->
-        <a href="mailto:support@example.com">ceritaunik14@gmail.com</a>
-        atau email yang tercantum di halaman Play Store.
+        If you use address lookup, geocoding, or map features, an address or
+        search text you enter may be sent to geocoding or map services such as
+        OpenStreetMap/Nominatim or platform geocoding services to return
+        coordinates, suggestions, or map display data. Map tiles may also be
+        loaded from OpenStreetMap.
+      </p>
+      <p>
+        If you open an address in an external maps app or website, that external
+        service handles the request under its own privacy policy.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Sharing, Email, Printing, and Reports</h2>
+      <p>
+        The app can generate, display, print, export, email, or share inspection
+        reports and backup files at your request. When you choose one of these
+        actions, the selected file or text may be passed to your device's share
+        sheet, email app, print service, file manager, or another app/service
+        you select.
+      </p>
+      <p>
+        Please review recipients and destination apps before sharing inspection
+        reports, because those files may include property details, notes, and
+        photos.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Analytics and Advertising</h2>
+      <p>
+        The app is not designed to sell personal data or show behaviorally
+        targeted advertising. Based on the current app implementation, there is
+        no third-party advertising SDK and no general-purpose analytics SDK used
+        to track your inspection activity.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Data Deletion</h2>
+      <p>You can delete your information in these ways:</p>
+      <ul>
+        <li>Delete individual properties, inspections, rooms, notes, photos, or reports inside the app where available.</li>
+        <li>Use export before deleting if you want to keep a copy of your data.</li>
+        <li>Uninstall the app or clear its app data in your device settings to remove locally stored app data from that device.</li>
+      </ul>
+      <p>
+        Because the app does not require a cloud account, we generally cannot
+        restore data deleted from your device.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Children's Privacy</h2>
+      <p>
+        Rental Inspection Defender is intended for rental inspection and property
+        documentation use. It is not directed to children, and we do not
+        knowingly collect personal information from children.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Third-Party Services</h2>
+      <p>The app may interact with the following third-party services depending on the features you use:</p>
+      <ul>
+        <li>Apple App Store and Google Play for purchases, subscriptions, refunds, and subscription management.</li>
+        <li>RevenueCat for subscription entitlement verification and purchase restoration.</li>
+        <li>OpenStreetMap/Nominatim and platform geocoding or map services for address lookup and map display.</li>
+        <li>Your selected email, sharing, printing, file storage, or maps apps when you send data outside Rental Inspection Defender.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy when app features, legal requirements,
+        or service providers change. The updated version will be posted on this
+        page with a new "Last updated" date.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>
+        For privacy questions or data requests, contact the developer at
+        <a href="mailto:ceritaunik14@gmail.com">ceritaunik14@gmail.com</a>
+        or through the contact details listed on the app's store page.
       </p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Jualan Cepat. Semua hak dilindungi.</p>
+    <p>&copy; 2026 Rental Inspection Defender. All rights reserved.</p>
   </footer>
 </body>
 </html>
